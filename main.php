@@ -16,7 +16,7 @@ class WebSecurityScanner {
         $this->config = [
             'access_key' => 'maw3six',
             'max_file_size' => 10485760, // 10MB
-            'scan_extensions' => ['php', 'phtml', 'shtml', 'php7', 'phar', 'asp', 'aspx', 'js'],
+            'scan_extensions' => ['php', 'phtml', 'shtml', 'php7', 'phar', 'php58', 'alfa', 'haxor'],
             'protected_paths' => ['/etc', '/bin', '/sbin', '/usr/bin', '/root', '/boot'],
             'max_depth' => 10,
             'timeout' => 300
